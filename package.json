@@ -1,0 +1,16 @@
+{
+  "name": "pw-storage-bot",
+  "author": "Denis Filatov",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "Telegram bot for secure storage of passwords",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mongoose": "^5.12.7",
+    "telegraf": "^4.3.0"
+  }
+}
